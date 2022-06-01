@@ -30,7 +30,6 @@ export function TransactionsProvider ({children}: TransactionsProviderProps) {
     useEffect(() => {
         api.get('transactions')
         .then(response => {
-            debugger
             setTransactions(response.data.transactions)
         })
     },[]);
