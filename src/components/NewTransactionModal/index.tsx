@@ -3,7 +3,7 @@ import { Container, TransactionTypeContainer, RadioBox } from './styles';
 import closeImg from '../../assets/closeButton.svg'
 import incomeImg from '../../assets/entradas.svg';
 import outcomeImg from '../../assets/saidas.svg';
-import { FormEvent, useState, useContext } from 'react';
+import { FormEvent, useState,  } from 'react';
 import { useTransactions } from '../../hooks/useTransactions';
 
 interface NewTransactionModalProps {
